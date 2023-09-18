@@ -1,3 +1,4 @@
+import abouthero from '../images/about-hero.svg';
 const About = () => {
     return ( 
         <div className="about px-6 md:px-20 py-10 text-left ">
@@ -12,7 +13,7 @@ const About = () => {
                     <p className="mt-6 text-xl">By joining PayLeaf, you can take advantage of our low fees and zero transaction costs, making it easier than ever to manage your finances. Plus, with our top-notch security measures, you can trust that your transactions and information are always protected.</p>
                 </div>
                 <div class="md:w-1/2">
-                    <img src="./images/about-hero.svg" alt="" />
+                    <img src={abouthero} alt="" />
 
                 </div>
 

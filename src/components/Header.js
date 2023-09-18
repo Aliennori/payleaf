@@ -1,5 +1,6 @@
 import  { useState } from 'react';
 import Hero from './Hero';
+import logo1 from '../images/logo1.svg';
 
 const Header = () => {
   const [sidenav, setsideNav] = useState(false);
@@ -13,7 +14,7 @@ const Header = () => {
     <div className="Header h-screen sm:h-[50vh] md:h-screen w-full bg-[#424242]">
     <div className="flex items-center justify-between px-6 md:px-20 py-6">
       <a href="/" className="flex items-center">
-        <img src="./images/logo1.svg" alt="logo" />
+        <img src={logo1} alt="logo" />
         <h1 className="text-2xl md:text-3xl font-bold text-white ml-2">Payleaf</h1>
       </a>
       <div className="relative">

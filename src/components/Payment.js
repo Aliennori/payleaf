@@ -1,3 +1,6 @@
+
+import scan from '../images/scan-to-pay.svg';
+
 const Payment = () => {
     return ( 
         <div className="bg-[#141414] px-6 md:px-20 py-12 md:flex md:justify-between md:items-center w-full text-white text-left">
@@ -9,7 +12,7 @@ const Payment = () => {
             <button className="bg-white text-[#141414] rounded-md font-medium text-xl px-4 py-2 mt-8 ">Become a merchant</button>
           </div>
           <div className="md:w-1/2 hidden md:block">
-          <img className="w-full" src="./images/scan-to-pay.svg" alt="" />           
+          <img className="w-full" src={scan} alt="" />           
           </div>
         </div>
      );
